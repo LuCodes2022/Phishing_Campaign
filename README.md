@@ -8,6 +8,7 @@ This is an activity assigned by BeCode in order to learn how to run a targeted f
 
 ### I am still working on:
 - Spoofing my email
+- finessing this mardown file
 
 ## Detailed explanation of the project's creation
 
@@ -15,7 +16,6 @@ This is an activity assigned by BeCode in order to learn how to run a targeted f
 
 First we need to go to linode cloud and chose the appropriate plan for our needs. Make sure to remember the password you set in this step as ou will be prompted to enter it when trying to ssh into the server.
 
-![](/assets/campaign_start.png)
 ![](/assets/phishinglinode.png)
 
 After that is set up you should land on a page with your VPS info! 
@@ -71,4 +71,45 @@ Now you will be prompted to enter a new password.
 
 Congrats! Now you can access your gophish server.
 
-### Gophish Campaign
+### Setting up an email for the campaign
+
+I am going with outlook, therefore after creating my account, I go to my account info and click on security (make sure two actor authentifiction is activated). From there I select manage passwords, then click on app passwords click on create app password (this will be used in the next step to connect your gophish server and that email address).
+
+![](/assets/create_app_password.png)
+
+### Gophish
+
+First we set up our sendin email address by clicking on that section and entering the relevant information:
+
+![](/assets/sendingprofile.png)
+
+Then we enter the information of the page we would like to use, you can either enter html in the designated area or import a website by clicking on import then entering the URL of the website you want to use:
+
+![](/assets/landing.png)
+
+Choose a URL you want the user to be redirected to after entering their information then click save page:
+
+![](/assets/landing2.png)
+
+Now let's select the email template by clicking on its section and entering the relevant info:
+
+![](/assets/email_template.png)
+
+Note that you can chose to either import the source code of an email or use your own stylized html content.
+
+Now it is time to create a group and add the emails of the users we want to send the email to. click on add group, it will open a form where you can add users by clicking the add button then entering their information:
+
+![](/assets/group.png)
+
+And now we can start the campaign selecting the information provided earlier throughout the sections in our drop down menu.
+
+![](/assets/campaign_start.png)
+
+Your campaign has now started!
+
+### Monitoring
+
+You can check the status of your campaign by clicking on  dashboard:
+
+![](/assets/dashboard1.png)
+![](/assets/dashboard2.png)
