@@ -8,7 +8,7 @@ This is an activity assigned by BeCode in order to learn how to run a targeted f
 
 ### I am still working on:
 - Spoofing my email
-- finessing this mardown file
+- finessing this markdown file
 
 ## Detailed explanation of the project's creation
 
